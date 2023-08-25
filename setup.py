@@ -48,7 +48,7 @@ setup(
     description='Notifications module of OpenWISP',
     long_description=open('README.rst').read(),
     url='http://openwisp.org',
-    download_url='https://github.com/openwisp/openwisp-notifications/releases',
+    download_url='https://github.com/burlesquer/openwisp-notifications/releases',
     platforms=['Platform Independent'],
     keywords=['django', 'netjson', 'notification', 'openwisp', 'monitoring'],
     packages=find_packages(exclude=['tests*', 'docs*']),

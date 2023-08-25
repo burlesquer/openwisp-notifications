@@ -1,1 +1,1 @@
-Please refer to the `Contribution Guidelines <https://github.com/openwisp/openwisp-notifications#contributing>`_.
+Please refer to the `Contribution Guidelines <https://github.com/burlesquer/openwisp-notifications#contributing>`_.

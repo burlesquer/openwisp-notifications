@@ -25,11 +25,11 @@ Bugfixes
 ~~~~~~~~
 
 - Fixed `hardcoded static image URLs
-  <https://github.com/openwisp/openwisp-notifications/issues/243>`_.
+  <https://github.com/burlesquer/openwisp-notifications/issues/243>`_.
   These create issues when static files are served using an
   external service (e.g. S3 storage buckets).
 - Fixed `"Organization.DoesNotExist" error on creating
-  a new organization <https://github.com/openwisp/openwisp-notifications/issues/238>`_.
+  a new organization <https://github.com/burlesquer/openwisp-notifications/issues/238>`_.
 
 Version 1.0.1 [2022-06-09]
 --------------------------
@@ -38,7 +38,7 @@ Bugfixes
 ~~~~~~~~
 
 - Fixed `handling of the "OPENWISP_NOTIFICATIONS_SOUND" setting
-  <https://github.com/openwisp/openwisp-notifications/issues/239>`_.
+  <https://github.com/burlesquer/openwisp-notifications/issues/239>`_.
   The code was not passing the sound file path to the utilities
   of ``django.contrib.staticfiles`` and hence the sound file was
   not loaded properly when using different static storage backend.
@@ -50,7 +50,7 @@ Features
 ~~~~~~~~
 
 - Introduced mechanism to `clear cache on specific signals
-  <https://github.com/openwisp/openwisp-notifications#cache-invalidation>`_
+  <https://github.com/burlesquer/openwisp-notifications#cache-invalidation>`_
 
 Changes
 ~~~~~~~
@@ -153,7 +153,7 @@ Features
 
 - Added support for Django 3.1
 - Added possibility of `silencing notifications for specific objects \
-  temporarily or permanently <https://github.com/openwisp/openwisp-notifications#silencing-notifications-for-specific-objects-temporarily-or-permanently>`_
+  temporarily or permanently <https://github.com/burlesquer/openwisp-notifications#silencing-notifications-for-specific-objects-temporarily-or-permanently>`_
 
 Bugfixes
 ~~~~~~~~
